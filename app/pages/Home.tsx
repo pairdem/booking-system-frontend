@@ -23,7 +23,7 @@ function Home() {
     password: string;
   } | null>(null);
 
-  // ✅ Correct place to get token on render
+  // Correct place to get token on render
   const [isLoggedIn, setIsLoggedIn] = useState(false);
 
   useEffect(() => {

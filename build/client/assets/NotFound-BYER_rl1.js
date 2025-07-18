@@ -1,1 +1,0 @@
-import{w as t,o}from"./chunk-NL6KNZEE-U0CUjooL.js";const r=t(function(){return o.jsx("h1",{className:"mt-10 text-center font-bold text-2xl text-red-500",children:"404 - Page Not Found"})});export{r as default};
