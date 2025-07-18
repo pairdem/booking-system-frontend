@@ -1,0 +1,114 @@
+{
+  "buildManifest": {
+    "routes": {
+      "root": {
+        "path": "",
+        "id": "root",
+        "file": "root.tsx"
+      },
+      "pages/Home": {
+        "id": "pages/Home",
+        "parentId": "root",
+        "file": "pages/Home.tsx",
+        "index": true
+      },
+      "pages/OauthSuccess": {
+        "id": "pages/OauthSuccess",
+        "parentId": "root",
+        "file": "pages/OauthSuccess.tsx",
+        "path": "oauth_success"
+      },
+      "pages/AboutUs": {
+        "id": "pages/AboutUs",
+        "parentId": "root",
+        "file": "pages/AboutUs.tsx",
+        "path": "about"
+      },
+      "pages/NotFound": {
+        "id": "pages/NotFound",
+        "parentId": "root",
+        "file": "pages/NotFound.tsx",
+        "path": "*"
+      },
+      "pages/exploreMain": {
+        "id": "pages/exploreMain",
+        "parentId": "root",
+        "file": "pages/exploreMain.tsx",
+        "path": "explore"
+      },
+      "pages/Booking": {
+        "id": "pages/Booking",
+        "parentId": "root",
+        "file": "pages/Booking.tsx",
+        "path": "book"
+      }
+    }
+  },
+  "reactRouterConfig": {
+    "appDirectory": "C:/Users/p.gefu/Tia/booking-system-frontend/app",
+    "basename": "/",
+    "buildDirectory": "C:/Users/p.gefu/Tia/booking-system-frontend/build",
+    "future": {
+      "unstable_middleware": false,
+      "unstable_optimizeDeps": false,
+      "unstable_splitRouteModules": false,
+      "unstable_subResourceIntegrity": false,
+      "unstable_viteEnvironmentApi": false
+    },
+    "prerender": true,
+    "routes": {
+      "root": {
+        "path": "",
+        "id": "root",
+        "file": "root.tsx"
+      },
+      "pages/Home": {
+        "id": "pages/Home",
+        "parentId": "root",
+        "file": "pages/Home.tsx",
+        "index": true
+      },
+      "pages/OauthSuccess": {
+        "id": "pages/OauthSuccess",
+        "parentId": "root",
+        "file": "pages/OauthSuccess.tsx",
+        "path": "oauth_success"
+      },
+      "pages/AboutUs": {
+        "id": "pages/AboutUs",
+        "parentId": "root",
+        "file": "pages/AboutUs.tsx",
+        "path": "about"
+      },
+      "pages/NotFound": {
+        "id": "pages/NotFound",
+        "parentId": "root",
+        "file": "pages/NotFound.tsx",
+        "path": "*"
+      },
+      "pages/exploreMain": {
+        "id": "pages/exploreMain",
+        "parentId": "root",
+        "file": "pages/exploreMain.tsx",
+        "path": "explore"
+      },
+      "pages/Booking": {
+        "id": "pages/Booking",
+        "parentId": "root",
+        "file": "pages/Booking.tsx",
+        "path": "book"
+      }
+    },
+    "routeDiscovery": {
+      "mode": "initial"
+    },
+    "serverBuildFile": "index.js",
+    "serverModuleFormat": "esm",
+    "ssr": false
+  },
+  "viteConfig": {
+    "build": {
+      "assetsDir": "assets"
+    }
+  }
+}

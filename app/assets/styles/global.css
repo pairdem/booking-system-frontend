@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-primary: 219 100% 50%;
+    --color-secondary: 226 100% 92%;
+    --color-background: 0 0% 100%;
+    --color-text: 0 0% 20%;
+    --color-accent: 221 83% 57%;
+    --color-reddit: 0, 73%, 42%;
+  }
+
+  .dark {
+    /* Dark Theme */
+    --color-primary: 219 100% 60%;
+    --color-secondary: 226 100% 20%;
+    --color-background: 0 0% 10%;
+    --color-text: 0 0% 90%;
+  }
+
+  .theme-custom {
+    /* Additional theme */
+    --color-primary: 120 100% 50%;
+    --color-secondary: 120 100% 90%;
+  }
+}
