@@ -10,7 +10,7 @@ const OauthSuccess = () => {
       console.error("No token found in URL.");
       setTimeout(() => {
         window.location.href = "/book";
-      }, 60000);
+      }, 120000);
       return;
     }
 
@@ -45,19 +45,19 @@ const OauthSuccess = () => {
           localStorage.removeItem("redirect_path");
           setTimeout(() => {
             window.location.href = redirectPath;
-          }, 60000);
+          }, 120000);
         } else {
           console.error("Else Exchange failed:", data);
           setTimeout(() => {
             window.location.href = "/book";
-          }, 60000);
+          }, 120000);
         }
       })
       .catch((err) => {
         console.error("Catch  Exchange error:", err);
         setTimeout(() => {
           window.location.href = "/book";
-        }, 60000);
+        }, 120000);
       });
   }, []);
 
